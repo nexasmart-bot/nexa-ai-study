@@ -20,9 +20,10 @@ const HeroSection = () => {
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl animate-fade-in-up" style={{ animationDelay: "0.15s" }}>
               Create custom study bots, generate structured study plans, track streaks, and organize your learning with intelligent AI guidance.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
-              <Button variant="hero" size="xl">Get Started</Button>
-              <Button variant="hero-outline" size="xl">Join the Community</Button>
+            <div className="flex justify-center md:justify-start animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
+              <a href="https://chat.whatsapp.com/BSwumdCdeLF7txFxw3jGdW" target="_blank" rel="noopener noreferrer">
+                <Button variant="hero" size="xl">Join the Community</Button>
+              </a>
             </div>
           </div>
 
