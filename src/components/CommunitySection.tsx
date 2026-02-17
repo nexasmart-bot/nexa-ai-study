@@ -12,7 +12,9 @@ const CommunitySection = () => {
         <p className="text-muted-foreground text-lg max-w-xl mx-auto mb-8">
           Connect with students, receive updates, and grow together in a focused learning environment.
         </p>
-        <Button variant="hero" size="xl">Join WhatsApp Community</Button>
+        <a href="https://chat.whatsapp.com/BSwumdCdeLF7txFxw3jGdW" target="_blank" rel="noopener noreferrer">
+          <Button variant="hero" size="xl">Join WhatsApp Community</Button>
+        </a>
       </div>
     </section>
   );

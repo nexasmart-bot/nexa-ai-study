@@ -11,9 +11,11 @@ const CTASection = () => {
         <p className="text-primary-foreground/80 text-lg max-w-lg mx-auto mb-8">
           An intelligent, structured way to prepare for exams.
         </p>
-        <Button variant="outline" size="xl" className="border-primary-foreground/30 text-primary-foreground bg-primary-foreground/10 hover:bg-primary-foreground/20 hover:text-primary-foreground">
-          Get Started
-        </Button>
+        <a href="https://chat.whatsapp.com/BSwumdCdeLF7txFxw3jGdW" target="_blank" rel="noopener noreferrer">
+          <Button variant="outline" size="xl" className="border-primary-foreground/30 text-primary-foreground bg-primary-foreground/10 hover:bg-primary-foreground/20 hover:text-primary-foreground">
+            Join the Community
+          </Button>
+        </a>
       </div>
     </section>
   );

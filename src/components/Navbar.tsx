@@ -18,7 +18,9 @@ const Navbar = () => {
               {l}
             </a>
           ))}
-          <Button variant="hero" size="sm">Get Started</Button>
+          <a href="https://chat.whatsapp.com/BSwumdCdeLF7txFxw3jGdW" target="_blank" rel="noopener noreferrer">
+            <Button variant="hero" size="sm">Join Community</Button>
+          </a>
         </div>
         <button className="md:hidden text-foreground" onClick={() => setOpen(!open)}>
           {open ? <X size={24} /> : <Menu size={24} />}
@@ -31,7 +33,9 @@ const Navbar = () => {
               {l}
             </a>
           ))}
-          <Button variant="hero" size="sm" className="w-full">Get Started</Button>
+          <a href="https://chat.whatsapp.com/BSwumdCdeLF7txFxw3jGdW" target="_blank" rel="noopener noreferrer">
+            <Button variant="hero" size="sm" className="w-full">Join Community</Button>
+          </a>
         </div>
       )}
     </nav>
